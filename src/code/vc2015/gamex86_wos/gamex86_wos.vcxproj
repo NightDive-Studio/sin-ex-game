@@ -1,0 +1,386 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Steam_Release|Win32">
+      <Configuration>Steam_Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DAA456FD-653B-480B-8C2A-666F99560094}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>gamex86_wos</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Steam_Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Steam_Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Configuration)_wos\</OutDir>
+    <TargetName>gamex86</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Configuration)_wos\</OutDir>
+    <TargetName>gamex86</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Steam_Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Configuration)_wos\</OutDir>
+    <TargetName>gamex86</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;GAMEX86_WOS_EXPORTS;GAMEX86_EXPORTS;BUILDING_REF_GL;SIN;ELIB_GAMEDLL;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ModuleDefinitionFile>../../game2015/game.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;GAMEX86_WOS_EXPORTS;GAMEX86_EXPORTS;BUILDING_REF_GL;SIN;ELIB_GAMEDLL;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ModuleDefinitionFile>../../game2015/game.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Steam_Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;GAMEX86_WOS_EXPORTS;GAMEX86_EXPORTS;BUILDING_REF_GL;SIN;ELIB_GAMEDLL;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ModuleDefinitionFile>../../game2015/game.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\elib\emisc.cpp" />
+    <ClCompile Include="..\..\elib\qstring.cpp" />
+    <ClCompile Include="..\..\elib\zone.cpp" />
+    <ClCompile Include="..\..\game2015\actor.cpp" />
+    <ClCompile Include="..\..\game2015\ammo.cpp" />
+    <ClCompile Include="..\..\game2015\animals.cpp" />
+    <ClCompile Include="..\..\game2015\arcade_comm.cpp" />
+    <ClCompile Include="..\..\game2015\archive.cpp" />
+    <ClCompile Include="..\..\game2015\areaportal.cpp" />
+    <ClCompile Include="..\..\game2015\armor.cpp" />
+    <ClCompile Include="..\..\game2015\assaultrifle.cpp" />
+    <ClCompile Include="..\..\game2015\bacrodai.cpp" />
+    <ClCompile Include="..\..\game2015\behavior.cpp" />
+    <ClCompile Include="..\..\game2015\bob.cpp" />
+    <ClCompile Include="..\..\game2015\bouncingbetty.cpp" />
+    <ClCompile Include="..\..\game2015\box.cpp" />
+    <ClCompile Include="..\..\game2015\bspline.cpp" />
+    <ClCompile Include="..\..\game2015\bullet.cpp" />
+    <ClCompile Include="..\..\game2015\camera.cpp">
+      <AssemblerOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AssemblyAndSourceCode</AssemblerOutput>
+    </ClCompile>
+    <ClCompile Include="..\..\game2015\camgun.cpp" />
+    <ClCompile Include="..\..\game2015\ceilingsteering.cpp" />
+    <ClCompile Include="..\..\game2015\chaingun.cpp" />
+    <ClCompile Include="..\..\game2015\checkpoints.cpp" />
+    <ClCompile Include="..\..\game2015\class.cpp" />
+    <ClCompile Include="..\..\game2015\concussion.cpp" />
+    <ClCompile Include="..\..\game2015\console.cpp" />
+    <ClCompile Include="..\..\game2015\crawler.cpp" />
+    <ClCompile Include="..\..\game2015\crossbow.cpp" />
+    <ClCompile Include="..\..\game2015\ctf.cpp" />
+    <ClCompile Include="..\..\game2015\ctf_turret.cpp" />
+    <ClCompile Include="..\..\game2015\deadbody.cpp" />
+    <ClCompile Include="..\..\game2015\doors.cpp" />
+    <ClCompile Include="..\..\game2015\dualmagnum.cpp" />
+    <ClCompile Include="..\..\game2015\earthquake.cpp" />
+    <ClCompile Include="..\..\game2015\entity.cpp" />
+    <ClCompile Include="..\..\game2015\eonandpeon.cpp" />
+    <ClCompile Include="..\..\game2015\explosion.cpp" />
+    <ClCompile Include="..\..\game2015\fists.cpp" />
+    <ClCompile Include="..\..\game2015\flamethrower.cpp" />
+    <ClCompile Include="..\..\game2015\flashlight.cpp" />
+    <ClCompile Include="..\..\game2015\gamescript.cpp" />
+    <ClCompile Include="..\..\game2015\genericbullet.cpp" />
+    <ClCompile Include="..\..\game2015\genericrocket.cpp" />
+    <ClCompile Include="..\..\game2015\gibs.cpp" />
+    <ClCompile Include="..\..\game2015\glowstick.cpp" />
+    <ClCompile Include="..\..\game2015\goliath.cpp" />
+    <ClCompile Include="..\..\game2015\grapple.cpp" />
+    <ClCompile Include="..\..\game2015\gravpath.cpp" />
+    <ClCompile Include="..\..\game2015\guidedmissile.cpp" />
+    <ClCompile Include="..\..\game2015\g_main.cpp" />
+    <ClCompile Include="..\..\game2015\g_phys.cpp" />
+    <ClCompile Include="..\..\game2015\g_spawn.cpp" />
+    <ClCompile Include="..\..\game2015\g_utils.cpp" />
+    <ClCompile Include="..\..\game2015\hammer.cpp" />
+    <ClCompile Include="..\..\game2015\health.cpp" />
+    <ClCompile Include="..\..\game2015\heligun.cpp" />
+    <ClCompile Include="..\..\game2015\hoverbike.cpp" />
+    <ClCompile Include="..\..\game2015\hoverweap.cpp" />
+    <ClCompile Include="..\..\game2015\informergun.cpp" />
+    <ClCompile Include="..\..\game2015\inventoryitem.cpp" />
+    <ClCompile Include="..\..\game2015\item.cpp" />
+    <ClCompile Include="..\..\game2015\jitter.cpp" />
+    <ClCompile Include="..\..\game2015\keys.cpp" />
+    <ClCompile Include="..\..\game2015\launcher.cpp" />
+    <ClCompile Include="..\..\game2015\lensflare.cpp" />
+    <ClCompile Include="..\..\game2015\light.cpp" />
+    <ClCompile Include="..\..\game2015\listener.cpp" />
+    <ClCompile Include="..\..\game2015\magnum.cpp" />
+    <ClCompile Include="..\..\game2015\maneroboss.cpp" />
+    <ClCompile Include="..\..\game2015\misc.cpp" />
+    <ClCompile Include="..\..\game2015\mortician.cpp" />
+    <ClCompile Include="..\..\game2015\movecapture.cpp" />
+    <ClCompile Include="..\..\game2015\mover.cpp" />
+    <ClCompile Include="..\..\game2015\mutanthands.cpp" />
+    <ClCompile Include="..\..\game2015\navigate.cpp" />
+    <ClCompile Include="..\..\game2015\nuke.cpp" />
+    <ClCompile Include="..\..\game2015\object.cpp" />
+    <ClCompile Include="..\..\game2015\path.cpp" />
+    <ClCompile Include="..\..\game2015\peon.cpp" />
+    <ClCompile Include="..\..\game2015\player.cpp" />
+    <ClCompile Include="..\..\game2015\PlayerStart.cpp" />
+    <ClCompile Include="..\..\game2015\powerups.cpp" />
+    <ClCompile Include="..\..\game2015\pulserifle.cpp" />
+    <ClCompile Include="..\..\game2015\quantumd.cpp" />
+    <ClCompile Include="..\..\game2015\q_shared.c" />
+    <ClCompile Include="..\..\game2015\reactiveshields.cpp" />
+    <ClCompile Include="..\..\game2015\rocketlauncher.cpp" />
+    <ClCompile Include="..\..\game2015\rocketpack.cpp" />
+    <ClCompile Include="..\..\game2015\rocket_turret.cpp" />
+    <ClCompile Include="..\..\game2015\rope.cpp" />
+    <ClCompile Include="..\..\game2015\script.cpp" />
+    <ClCompile Include="..\..\game2015\scriptmaster.cpp" />
+    <ClCompile Include="..\..\game2015\scriptslave.cpp" />
+    <ClCompile Include="..\..\game2015\scriptvariable.cpp" />
+    <ClCompile Include="..\..\game2015\secgun.cpp" />
+    <ClCompile Include="..\..\game2015\securityturret.cpp" />
+    <ClCompile Include="..\..\game2015\sentient.cpp" />
+    <ClCompile Include="..\..\game2015\shield.cpp" />
+    <ClCompile Include="..\..\game2015\shotgun.cpp" />
+    <ClCompile Include="..\..\game2015\shotrocketlauncher.cpp" />
+    <ClCompile Include="..\..\game2015\silencer.cpp" />
+    <ClCompile Include="..\..\game2015\skeet.cpp" />
+    <ClCompile Include="..\..\game2015\sniperrifle.cpp" />
+    <ClCompile Include="..\..\game2015\speargun.cpp" />
+    <ClCompile Include="..\..\game2015\specialfx.cpp" />
+    <ClCompile Include="..\..\game2015\spidermine.cpp" />
+    <ClCompile Include="..\..\game2015\splitter.cpp" />
+    <ClCompile Include="..\..\game2015\spritegun.cpp" />
+    <ClCompile Include="..\..\game2015\steering.cpp" />
+    <ClCompile Include="..\..\game2015\str.cpp" />
+    <ClCompile Include="..\..\game2015\stungun.cpp" />
+    <ClCompile Include="..\..\game2015\surface.cpp" />
+    <ClCompile Include="..\..\game2015\testweapon.cpp" />
+    <ClCompile Include="..\..\game2015\thrall.cpp" />
+    <ClCompile Include="..\..\game2015\thug.cpp" />
+    <ClCompile Include="..\..\game2015\trigger.cpp" />
+    <ClCompile Include="..\..\game2015\turret.cpp" />
+    <ClCompile Include="..\..\game2015\vehicle.cpp" />
+    <ClCompile Include="..\..\game2015\viewthing.cpp" />
+    <ClCompile Include="..\..\game2015\weapon.cpp" />
+    <ClCompile Include="..\..\game2015\worldspawn.cpp" />
+    <ClCompile Include="..\..\game2015\wrench.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\elib\elib.h" />
+    <ClInclude Include="..\..\elib\misc.h" />
+    <ClInclude Include="..\..\elib\m_ctype.h" />
+    <ClInclude Include="..\..\elib\qstring.h" />
+    <ClInclude Include="..\..\elib\qstringmap.h" />
+    <ClInclude Include="..\..\elib\zone.h" />
+    <ClInclude Include="..\..\game2015\actor.h" />
+    <ClInclude Include="..\..\game2015\ammo.h" />
+    <ClInclude Include="..\..\game2015\arcade_comm.h" />
+    <ClInclude Include="..\..\game2015\archive.h" />
+    <ClInclude Include="..\..\game2015\areaportal.h" />
+    <ClInclude Include="..\..\game2015\armor.h" />
+    <ClInclude Include="..\..\game2015\assaultrifle.h" />
+    <ClInclude Include="..\..\game2015\bacrodai.h" />
+    <ClInclude Include="..\..\game2015\behavior.h" />
+    <ClInclude Include="..\..\game2015\bob.h" />
+    <ClInclude Include="..\..\game2015\bouncingbetty.h" />
+    <ClInclude Include="..\..\game2015\box.h" />
+    <ClInclude Include="..\..\game2015\bspline.h" />
+    <ClInclude Include="..\..\game2015\bullet.h" />
+    <ClInclude Include="..\..\game2015\camera.h" />
+    <ClInclude Include="..\..\game2015\ceilingsteering.h" />
+    <ClInclude Include="..\..\game2015\chaingun.h" />
+    <ClInclude Include="..\..\game2015\checkpoints.h" />
+    <ClInclude Include="..\..\game2015\class.h" />
+    <ClInclude Include="..\..\game2015\concussion.h" />
+    <ClInclude Include="..\..\game2015\console.h" />
+    <ClInclude Include="..\..\game2015\container.h" />
+    <ClInclude Include="..\..\game2015\crawler.h" />
+    <ClInclude Include="..\..\game2015\crossbow.h" />
+    <ClInclude Include="..\..\game2015\ctf.h" />
+    <ClInclude Include="..\..\game2015\ctf_turret.h" />
+    <ClInclude Include="..\..\game2015\datamap.h" />
+    <ClInclude Include="..\..\game2015\deadbody.h" />
+    <ClInclude Include="..\..\game2015\doors.h" />
+    <ClInclude Include="..\..\game2015\dualmagnum.h" />
+    <ClInclude Include="..\..\game2015\earthquake.h" />
+    <ClInclude Include="..\..\game2015\entity.h" />
+    <ClInclude Include="..\..\game2015\eonandpeon.h" />
+    <ClInclude Include="..\..\game2015\explosion.h" />
+    <ClInclude Include="..\..\game2015\fists.h" />
+    <ClInclude Include="..\..\game2015\flamethrower.h" />
+    <ClInclude Include="..\..\game2015\flashlight.h" />
+    <ClInclude Include="..\..\game2015\game.h" />
+    <ClInclude Include="..\..\game2015\gamescript.h" />
+    <ClInclude Include="..\..\game2015\genericbullet.h" />
+    <ClInclude Include="..\..\game2015\genericrocket.h" />
+    <ClInclude Include="..\..\game2015\gibs.h" />
+    <ClInclude Include="..\..\game2015\goliath.h" />
+    <ClInclude Include="..\..\game2015\grapple.h" />
+    <ClInclude Include="..\..\game2015\gravpath.h" />
+    <ClInclude Include="..\..\game2015\guidedmissile.h" />
+    <ClInclude Include="..\..\game2015\g_local.h" />
+    <ClInclude Include="..\..\game2015\g_main.h" />
+    <ClInclude Include="..\..\game2015\g_phys.h" />
+    <ClInclude Include="..\..\game2015\g_spawn.h" />
+    <ClInclude Include="..\..\game2015\g_utils.h" />
+    <ClInclude Include="..\..\game2015\health.h" />
+    <ClInclude Include="..\..\game2015\heligun.h" />
+    <ClInclude Include="..\..\game2015\hoverbike.h" />
+    <ClInclude Include="..\..\game2015\hoverweap.h" />
+    <ClInclude Include="..\..\game2015\informergun.h" />
+    <ClInclude Include="..\..\game2015\inventoryitem.h" />
+    <ClInclude Include="..\..\game2015\item.h" />
+    <ClInclude Include="..\..\game2015\jitter.h" />
+    <ClInclude Include="..\..\game2015\lensflare.h" />
+    <ClInclude Include="..\..\game2015\light.h" />
+    <ClInclude Include="..\..\game2015\LINKLIST.H" />
+    <ClInclude Include="..\..\game2015\listener.h" />
+    <ClInclude Include="..\..\game2015\magnum.h" />
+    <ClInclude Include="..\..\game2015\maneroboss.h" />
+    <ClInclude Include="..\..\game2015\misc.h" />
+    <ClInclude Include="..\..\game2015\mortician.h" />
+    <ClInclude Include="..\..\game2015\movecapture.h" />
+    <ClInclude Include="..\..\game2015\mover.h" />
+    <ClInclude Include="..\..\game2015\mutanthands.h" />
+    <ClInclude Include="..\..\game2015\navigate.h" />
+    <ClInclude Include="..\..\game2015\nuke.h" />
+    <ClInclude Include="..\..\game2015\object.h" />
+    <ClInclude Include="..\..\game2015\path.h" />
+    <ClInclude Include="..\..\game2015\peon.h" />
+    <ClInclude Include="..\..\game2015\player.h" />
+    <ClInclude Include="..\..\game2015\PlayerStart.h" />
+    <ClInclude Include="..\..\game2015\powerups.h" />
+    <ClInclude Include="..\..\game2015\prioritystack.h" />
+    <ClInclude Include="..\..\game2015\pulserifle.h" />
+    <ClInclude Include="..\..\game2015\quantumd.h" />
+    <ClInclude Include="..\..\game2015\queue.h" />
+    <ClInclude Include="..\..\game2015\q_shared.h" />
+    <ClInclude Include="..\..\game2015\rocketlauncher.h" />
+    <ClInclude Include="..\..\game2015\rocketpack.h" />
+    <ClInclude Include="..\..\game2015\rocket_turret.h" />
+    <ClInclude Include="..\..\game2015\rope.h" />
+    <ClInclude Include="..\..\game2015\script.h" />
+    <ClInclude Include="..\..\game2015\scriptmaster.h" />
+    <ClInclude Include="..\..\game2015\scriptslave.h" />
+    <ClInclude Include="..\..\game2015\scriptvariable.h" />
+    <ClInclude Include="..\..\game2015\secgun.h" />
+    <ClInclude Include="..\..\game2015\securityturret.h" />
+    <ClInclude Include="..\..\game2015\sentient.h" />
+    <ClInclude Include="..\..\game2015\shotgun.h" />
+    <ClInclude Include="..\..\game2015\shotrocketlauncher.h" />
+    <ClInclude Include="..\..\game2015\silencer.h" />
+    <ClInclude Include="..\..\game2015\skeet.h" />
+    <ClInclude Include="..\..\game2015\sniperrifle.h" />
+    <ClInclude Include="..\..\game2015\speargun.h" />
+    <ClInclude Include="..\..\game2015\specialfx.h" />
+    <ClInclude Include="..\..\game2015\spidermine.h" />
+    <ClInclude Include="..\..\game2015\splitter.h" />
+    <ClInclude Include="..\..\game2015\spritegun.h" />
+    <ClInclude Include="..\..\game2015\stack.h" />
+    <ClInclude Include="..\..\game2015\steering.h" />
+    <ClInclude Include="..\..\game2015\str.h" />
+    <ClInclude Include="..\..\game2015\stungun.h" />
+    <ClInclude Include="..\..\game2015\surface.h" />
+    <ClInclude Include="..\..\game2015\testweapon.h" />
+    <ClInclude Include="..\..\game2015\thrall.h" />
+    <ClInclude Include="..\..\game2015\thug.h" />
+    <ClInclude Include="..\..\game2015\trigger.h" />
+    <ClInclude Include="..\..\game2015\turret.h" />
+    <ClInclude Include="..\..\game2015\vector.h" />
+    <ClInclude Include="..\..\game2015\vehicle.h" />
+    <ClInclude Include="..\..\game2015\viewthing.h" />
+    <ClInclude Include="..\..\game2015\weapon.h" />
+    <ClInclude Include="..\..\game2015\worldspawn.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\game2015\game.def" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

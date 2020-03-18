@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gamex86", "..\src\code\vc2015\gamex86\gamex86.vcxproj", "{52316367-B666-4767-9F5E-B916534B047F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gamex86_wos", "..\src\code\vc2015\gamex86_wos\gamex86_wos.vcxproj", "{DAA456FD-653B-480B-8C2A-666F99560094}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+		Steam_Release|x86 = Steam_Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52316367-B666-4767-9F5E-B916534B047F}.Debug|x86.ActiveCfg = Debug|Win32
+		{52316367-B666-4767-9F5E-B916534B047F}.Debug|x86.Build.0 = Debug|Win32
+		{52316367-B666-4767-9F5E-B916534B047F}.Release|x86.ActiveCfg = Release|Win32
+		{52316367-B666-4767-9F5E-B916534B047F}.Release|x86.Build.0 = Release|Win32
+		{52316367-B666-4767-9F5E-B916534B047F}.Steam_Release|x86.ActiveCfg = Steam_Release|Win32
+		{52316367-B666-4767-9F5E-B916534B047F}.Steam_Release|x86.Build.0 = Steam_Release|Win32
+		{DAA456FD-653B-480B-8C2A-666F99560094}.Debug|x86.ActiveCfg = Debug|Win32
+		{DAA456FD-653B-480B-8C2A-666F99560094}.Debug|x86.Build.0 = Debug|Win32
+		{DAA456FD-653B-480B-8C2A-666F99560094}.Release|x86.ActiveCfg = Release|Win32
+		{DAA456FD-653B-480B-8C2A-666F99560094}.Release|x86.Build.0 = Release|Win32
+		{DAA456FD-653B-480B-8C2A-666F99560094}.Steam_Release|x86.ActiveCfg = Steam_Release|Win32
+		{DAA456FD-653B-480B-8C2A-666F99560094}.Steam_Release|x86.Build.0 = Steam_Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

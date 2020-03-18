@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Steam_Release|Win32">
+      <Configuration>Steam_Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{52316367-B666-4767-9F5E-B916534B047F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>gamex86</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Steam_Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Steam_Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Steam_Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;GAMEX86_EXPORTS;BUILDING_REF_GL;SIN;ELIB_GAMEDLL;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ModuleDefinitionFile>../../game/game.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;GAMEX86_EXPORTS;BUILDING_REF_GL;SIN;ELIB_GAMEDLL;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ModuleDefinitionFile>../../game/game.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Steam_Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;GAMEX86_EXPORTS;BUILDING_REF_GL;SIN;ELIB_GAMEDLL;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ModuleDefinitionFile>../../game/game.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\elib\elib.h" />
+    <ClInclude Include="..\..\elib\misc.h" />
+    <ClInclude Include="..\..\elib\m_ctype.h" />
+    <ClInclude Include="..\..\elib\qstring.h" />
+    <ClInclude Include="..\..\elib\qstringmap.h" />
+    <ClInclude Include="..\..\elib\zone.h" />
+    <ClInclude Include="..\..\game\actor.h" />
+    <ClInclude Include="..\..\game\ammo.h" />
+    <ClInclude Include="..\..\game\archive.h" />
+    <ClInclude Include="..\..\game\areaportal.h" />
+    <ClInclude Include="..\..\game\armor.h" />
+    <ClInclude Include="..\..\game\assaultrifle.h" />
+    <ClInclude Include="..\..\game\bacrodai.h" />
+    <ClInclude Include="..\..\game\behavior.h" />
+    <ClInclude Include="..\..\game\bouncingbetty.h" />
+    <ClInclude Include="..\..\game\box.h" />
+    <ClInclude Include="..\..\game\bspline.h" />
+    <ClInclude Include="..\..\game\bullet.h" />
+    <ClInclude Include="..\..\game\camera.h" />
+    <ClInclude Include="..\..\game\chaingun.h" />
+    <ClInclude Include="..\..\game\class.h" />
+    <ClInclude Include="..\..\game\console.h" />
+    <ClInclude Include="..\..\game\container.h" />
+    <ClInclude Include="..\..\game\ctf.h" />
+    <ClInclude Include="..\..\game\ctf_turret.h" />
+    <ClInclude Include="..\..\game\datamap.h" />
+    <ClInclude Include="..\..\game\deadbody.h" />
+    <ClInclude Include="..\..\game\doors.h" />
+    <ClInclude Include="..\..\game\earthquake.h" />
+    <ClInclude Include="..\..\game\entity.h" />
+    <ClInclude Include="..\..\game\eonandpeon.h" />
+    <ClInclude Include="..\..\game\explosion.h" />
+    <ClInclude Include="..\..\game\fists.h" />
+    <ClInclude Include="..\..\game\game.h" />
+    <ClInclude Include="..\..\game\gamescript.h" />
+    <ClInclude Include="..\..\game\genericbullet.h" />
+    <ClInclude Include="..\..\game\genericrocket.h" />
+    <ClInclude Include="..\..\game\gibs.h" />
+    <ClInclude Include="..\..\game\grapple.h" />
+    <ClInclude Include="..\..\game\gravpath.h" />
+    <ClInclude Include="..\..\game\g_local.h" />
+    <ClInclude Include="..\..\game\g_main.h" />
+    <ClInclude Include="..\..\game\g_phys.h" />
+    <ClInclude Include="..\..\game\g_spawn.h" />
+    <ClInclude Include="..\..\game\g_utils.h" />
+    <ClInclude Include="..\..\game\health.h" />
+    <ClInclude Include="..\..\game\heligun.h" />
+    <ClInclude Include="..\..\game\inventoryitem.h" />
+    <ClInclude Include="..\..\game\item.h" />
+    <ClInclude Include="..\..\game\lensflare.h" />
+    <ClInclude Include="..\..\game\light.h" />
+    <ClInclude Include="..\..\game\LINKLIST.H" />
+    <ClInclude Include="..\..\game\listener.h" />
+    <ClInclude Include="..\..\game\magnum.h" />
+    <ClInclude Include="..\..\game\misc.h" />
+    <ClInclude Include="..\..\game\mover.h" />
+    <ClInclude Include="..\..\game\mutanthands.h" />
+    <ClInclude Include="..\..\game\navigate.h" />
+    <ClInclude Include="..\..\game\object.h" />
+    <ClInclude Include="..\..\game\path.h" />
+    <ClInclude Include="..\..\game\peon.h" />
+    <ClInclude Include="..\..\game\player.h" />
+    <ClInclude Include="..\..\game\PlayerStart.h" />
+    <ClInclude Include="..\..\game\powerups.h" />
+    <ClInclude Include="..\..\game\prioritystack.h" />
+    <ClInclude Include="..\..\game\pulserifle.h" />
+    <ClInclude Include="..\..\game\quantumd.h" />
+    <ClInclude Include="..\..\game\queue.h" />
+    <ClInclude Include="..\..\game\q_shared.h" />
+    <ClInclude Include="..\..\game\rocketlauncher.h" />
+    <ClInclude Include="..\..\game\rocket_turret.h" />
+    <ClInclude Include="..\..\game\script.h" />
+    <ClInclude Include="..\..\game\scriptmaster.h" />
+    <ClInclude Include="..\..\game\scriptslave.h" />
+    <ClInclude Include="..\..\game\scriptvariable.h" />
+    <ClInclude Include="..\..\game\secgun.h" />
+    <ClInclude Include="..\..\game\securityturret.h" />
+    <ClInclude Include="..\..\game\sentient.h" />
+    <ClInclude Include="..\..\game\shotgun.h" />
+    <ClInclude Include="..\..\game\shotrocketlauncher.h" />
+    <ClInclude Include="..\..\game\silencer.h" />
+    <ClInclude Include="..\..\game\skeet.h" />
+    <ClInclude Include="..\..\game\sniperrifle.h" />
+    <ClInclude Include="..\..\game\speargun.h" />
+    <ClInclude Include="..\..\game\specialfx.h" />
+    <ClInclude Include="..\..\game\spidermine.h" />
+    <ClInclude Include="..\..\game\stack.h" />
+    <ClInclude Include="..\..\game\steering.h" />
+    <ClInclude Include="..\..\game\str.h" />
+    <ClInclude Include="..\..\game\stungun.h" />
+    <ClInclude Include="..\..\game\surface.h" />
+    <ClInclude Include="..\..\game\testweapon.h" />
+    <ClInclude Include="..\..\game\thrall.h" />
+    <ClInclude Include="..\..\game\trigger.h" />
+    <ClInclude Include="..\..\game\turret.h" />
+    <ClInclude Include="..\..\game\vector.h" />
+    <ClInclude Include="..\..\game\vehicle.h" />
+    <ClInclude Include="..\..\game\viewthing.h" />
+    <ClInclude Include="..\..\game\weapon.h" />
+    <ClInclude Include="..\..\game\worldspawn.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\elib\emisc.cpp" />
+    <ClCompile Include="..\..\elib\qstring.cpp" />
+    <ClCompile Include="..\..\elib\zone.cpp" />
+    <ClCompile Include="..\..\game\actor.cpp" />
+    <ClCompile Include="..\..\game\ammo.cpp" />
+    <ClCompile Include="..\..\game\animals.cpp" />
+    <ClCompile Include="..\..\game\archive.cpp" />
+    <ClCompile Include="..\..\game\areaportal.cpp" />
+    <ClCompile Include="..\..\game\armor.cpp" />
+    <ClCompile Include="..\..\game\assaultrifle.cpp" />
+    <ClCompile Include="..\..\game\bacrodai.cpp" />
+    <ClCompile Include="..\..\game\behavior.cpp" />
+    <ClCompile Include="..\..\game\bouncingbetty.cpp" />
+    <ClCompile Include="..\..\game\box.cpp" />
+    <ClCompile Include="..\..\game\bspline.cpp" />
+    <ClCompile Include="..\..\game\bullet.cpp" />
+    <ClCompile Include="..\..\game\camera.cpp">
+      <AssemblerOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AssemblyAndSourceCode</AssemblerOutput>
+    </ClCompile>
+    <ClCompile Include="..\..\game\camgun.cpp" />
+    <ClCompile Include="..\..\game\chaingun.cpp" />
+    <ClCompile Include="..\..\game\class.cpp" />
+    <ClCompile Include="..\..\game\console.cpp" />
+    <ClCompile Include="..\..\game\ctf.cpp" />
+    <ClCompile Include="..\..\game\ctf_turret.cpp" />
+    <ClCompile Include="..\..\game\deadbody.cpp" />
+    <ClCompile Include="..\..\game\doors.cpp" />
+    <ClCompile Include="..\..\game\earthquake.cpp" />
+    <ClCompile Include="..\..\game\entity.cpp" />
+    <ClCompile Include="..\..\game\eonandpeon.cpp" />
+    <ClCompile Include="..\..\game\explosion.cpp" />
+    <ClCompile Include="..\..\game\fists.cpp" />
+    <ClCompile Include="..\..\game\gamescript.cpp" />
+    <ClCompile Include="..\..\game\genericbullet.cpp" />
+    <ClCompile Include="..\..\game\genericrocket.cpp" />
+    <ClCompile Include="..\..\game\gibs.cpp" />
+    <ClCompile Include="..\..\game\glowstick.cpp" />
+    <ClCompile Include="..\..\game\grapple.cpp" />
+    <ClCompile Include="..\..\game\gravpath.cpp" />
+    <ClCompile Include="..\..\game\g_main.cpp" />
+    <ClCompile Include="..\..\game\g_phys.cpp" />
+    <ClCompile Include="..\..\game\g_spawn.cpp" />
+    <ClCompile Include="..\..\game\g_utils.cpp" />
+    <ClCompile Include="..\..\game\hammer.cpp" />
+    <ClCompile Include="..\..\game\health.cpp" />
+    <ClCompile Include="..\..\game\heligun.cpp" />
+    <ClCompile Include="..\..\game\inventoryitem.cpp" />
+    <ClCompile Include="..\..\game\item.cpp" />
+    <ClCompile Include="..\..\game\keys.cpp" />
+    <ClCompile Include="..\..\game\launcher.cpp" />
+    <ClCompile Include="..\..\game\lensflare.cpp" />
+    <ClCompile Include="..\..\game\light.cpp" />
+    <ClCompile Include="..\..\game\listener.cpp" />
+    <ClCompile Include="..\..\game\magnum.cpp" />
+    <ClCompile Include="..\..\game\misc.cpp" />
+    <ClCompile Include="..\..\game\mover.cpp" />
+    <ClCompile Include="..\..\game\mutanthands.cpp" />
+    <ClCompile Include="..\..\game\navigate.cpp" />
+    <ClCompile Include="..\..\game\object.cpp" />
+    <ClCompile Include="..\..\game\path.cpp" />
+    <ClCompile Include="..\..\game\peon.cpp" />
+    <ClCompile Include="..\..\game\player.cpp" />
+    <ClCompile Include="..\..\game\PlayerStart.cpp" />
+    <ClCompile Include="..\..\game\powerups.cpp" />
+    <ClCompile Include="..\..\game\pulserifle.cpp" />
+    <ClCompile Include="..\..\game\quantumd.cpp" />
+    <ClCompile Include="..\..\game\q_shared.c" />
+    <ClCompile Include="..\..\game\reactiveshields.cpp" />
+    <ClCompile Include="..\..\game\rocketlauncher.cpp" />
+    <ClCompile Include="..\..\game\rocket_turret.cpp" />
+    <ClCompile Include="..\..\game\script.cpp" />
+    <ClCompile Include="..\..\game\scriptmaster.cpp" />
+    <ClCompile Include="..\..\game\scriptslave.cpp" />
+    <ClCompile Include="..\..\game\scriptvariable.cpp" />
+    <ClCompile Include="..\..\game\secgun.cpp" />
+    <ClCompile Include="..\..\game\securityturret.cpp" />
+    <ClCompile Include="..\..\game\sentient.cpp" />
+    <ClCompile Include="..\..\game\shield.cpp" />
+    <ClCompile Include="..\..\game\shotgun.cpp" />
+    <ClCompile Include="..\..\game\shotrocketlauncher.cpp" />
+    <ClCompile Include="..\..\game\silencer.cpp" />
+    <ClCompile Include="..\..\game\skeet.cpp" />
+    <ClCompile Include="..\..\game\sniperrifle.cpp" />
+    <ClCompile Include="..\..\game\speargun.cpp" />
+    <ClCompile Include="..\..\game\specialfx.cpp" />
+    <ClCompile Include="..\..\game\spidermine.cpp" />
+    <ClCompile Include="..\..\game\steering.cpp" />
+    <ClCompile Include="..\..\game\str.cpp" />
+    <ClCompile Include="..\..\game\stungun.cpp" />
+    <ClCompile Include="..\..\game\surface.cpp" />
+    <ClCompile Include="..\..\game\testweapon.cpp" />
+    <ClCompile Include="..\..\game\thrall.cpp" />
+    <ClCompile Include="..\..\game\trigger.cpp" />
+    <ClCompile Include="..\..\game\turret.cpp" />
+    <ClCompile Include="..\..\game\vehicle.cpp" />
+    <ClCompile Include="..\..\game\viewthing.cpp" />
+    <ClCompile Include="..\..\game\weapon.cpp" />
+    <ClCompile Include="..\..\game\worldspawn.cpp" />
+    <ClCompile Include="..\..\game\wrench.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\game\game.def" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
