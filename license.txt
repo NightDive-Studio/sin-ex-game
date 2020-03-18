@@ -1,0 +1,359 @@
+ATTENTION
+
+Here is a brief summary of certain of the terms and conditions in our Limited
+Software Warranty and License Agreement. You must read the full text of the
+agreement before using this product so that You understand all of the terms
+and conditions of our agreement regarding this product.
+
+WHAT IS OKAY FOR YOU TO DO:
+
+$       Playing and enjoying the shareware and/or registered/full retail
+version of the game, demo and/or level editor.
+
+$       Setting up a shareware, demo, and/or registered/full retail version
+based server on a not-for-profit and non-commercially exploited basis.
+
+$       Playing the shareware, demo, and/or registered/full retail version of
+the game and/or setting up a registered/full retail version of the game using
+user-developed levels on a not-for-profit and non-commercially exploited
+bases.
+
+WHAT IS NOT OKAY FOR YOU TO DO:
+
+$       You cannot sell or otherwise commercially exploit or utilize the
+shareware, registered/full retail version, demo or level editor in any way or
+sell user-developed levels and/or tools.
+
+$       Commercially exploiting or otherwise utilizing any copyrighted and/or
+trademarked property of Ritual Entertainment or any other party contained in
+or associated with the shareware, demo, level editor or registered/full retail
+version, demo, single player game and/or level editor, including without
+limitation game names, logos, graphics, characters, etc.
+
+
+LIMITED SOFTWARE WARRANTY AND LICENSE AGREEMENT
+
+This LIMITED SOFTWARE WARRANTY AND LICENSE AGREEMENT (this "Agreement"),
+including the Limited Warranty and other special provisions, is a legal
+agreement between You (either an individual or an entity) and Ritual
+Entertainment, Inc., a Texas corporation (the "Owner"), regarding this
+software product and the materials contained therein and related thereto. Your
+act of downloading, installing and/or otherwise using the software constitutes
+Your agreement to be bound by the terms of this Agreement. If You do not agree
+to the terms of this Agreement cease loading or installing this product and,
+if applicable, promptly return the software packaging and the accompanying
+materials (including any hardware, manuals, other written materials and
+packaging) to the place You obtained them, along with Your receipt, for a full
+refund.
+
+Grant of Limited Non-Exclusive License. (A) In the event that You are
+currently encountering this Agreement in conjunction with or as a result of
+Your downloading or otherwise installing the SOFTWARE (as defined herein),
+this Agreement permits You to use one (1) copy of the software program(s), in
+executable or object code form only, contained in the registered/full retail
+version of the game program entitled SiN, as contained in the disk(s) making
+up all or part of the registered/full retail software product, including
+without limitation the data files, images, level editors, death match levels,
+charters and screen displays (the "SOFTWARE"), included in this download for
+Your personal use on a single home or portable computer. This license also
+permits You to use the SOFTWARE's level editor to create new game levels,
+weapons, characters and/or entities for non-commercial personal use, and to
+non-commercially distribute such game levels, weapons, characters, and/or
+entities to personal acquaintances for non-commercial use via the Internet
+pursuant to subparagraph (C) below. This license does NOT authorize You to
+sell, lease or otherwise profit from or commercially distribute the SOFTWARE
+(see "Restrictions" below). The SOFTWARE is in "use" on a computer when it is
+loaded into temporary memory (i.e., RAM) or installed into the permanent
+memory (e.g., hard disk, CD-ROM, or other storage device) of that computer.
+Installation on a network server is strictly prohibited, except under a
+special and separate network license obtained from Owner; this Agreement shall
+not serve as such necessary special network license. Installation on a network
+server constitutes "use" that must comply with the terms of this Agreement.
+This license is not a sale of the original SOFTWARE or any copy thereof.
+
+(B)     In the event that You are currently encountering this Agreement in
+conjunction with or as a result of Your downloading or otherwise installing a
+DEMO PRODUCT (as defined herein), this Agreement permits You to use the
+software program(s) included in and received solely as a result of the loaded
+or otherwise installed version of the demo, free standing level editor and/or
+shareware version of the game entitled Sin, as the case may be, for Your
+personal use (each such item referred to herein, individually as a "DEMO
+PRODUCT" and collectively as the "DEMO PRODUCTS"). This license also permits
+You to use the level editor, as contained in and received solely as a result
+of the downloading or other installation or utilization of such DEMO PRODUCT,
+to create new game levels, weapons, characters and/or entities for
+non-commercial personal use, and to non-commercially distribute such games
+levels, weapons, characters, and/or entities to personal acquaintances for
+non-commercial use via the Internet pursuant to subparagraph (C) below. This
+license does NOT authorize You to sell, lease or otherwise profit from or
+commercially exploit a DEMO PRODUCT (see "Restrictions" below). A DEMO PRODUCT
+is in "use" on a computer when it is loaded into temporary memory (i.e., RAM)
+or installed into the permanent memory (e.g., hard disk, CD-ROM, or other
+storage device) of that computer or accessed via the Internet. Installation of
+any DEMO PRODUCTS on a network server for profit or other commercial benefit
+to You or any other person is strictly prohibited, except under a special and
+separate network license obtained from Owner; this Agreement shall not serve
+as such necessary special network license. Installation on a network server
+constitutes "use" that must comply with the terms of this Agreement. This
+license is not a sale of the original DEMO PRODUCTS or any copy thereof.
+
+(C)     Subject to the terms and conditions of this Agreement, Owner grants to
+You the non-exclusive and limited right to create additional levels (the "USER
+LEVELS") which are operable with the SOFTWARE or DEMO PRODUCT. You may include
+within the USER LEVELS certain textures and other images (the "Owner Images")
+from the SOFTWARE or DEMO PRODUCT, as the case may be. You agree that the USER
+LEVELS will not be shipped, transferred or exported into any country in
+violation of the U.S. Export Administration Act (or any other law governing
+such matters) by You or anyone at Your direction and that You will not utilize
+and will not authorize anyone to utilize, in any other manner, the USER LEVELS
+in violation of any applicable law. The USER LEVELS may not be downloaded or
+otherwise exported or re-exported into (or to a national or resident of) any
+country to which the United States has embargoed goods or to anyone or unto
+any country who/which are prohibited by applicable law, from receiving such
+property. You shall not rent, sell, lease, lend, offer on a pay-per- play
+basis or otherwise commercially exploit or commercially distribute any USER
+LEVELS. You are only permitted to distribute for free, without any cost or
+charge, the USER LEVELS to other end-users. As noted below, in the event You
+commercially distribute or commercially exploit any USER LEVELS or commit any
+other breach of this Agreement, Your license, as granted in this Agreement,
+shall automatically terminate, without notice. IN ADDITION TO YOUR
+INDEMNIFICATION OBLIGATIONS AS SET FORTH BELOW, YOU HEREBY AGREE TO INDEMNIFY,
+DEFEND AND HOLD HARMLESS OWNER AND OWNER'S RESPECTIVE OFFICERS, EMPLOYEES,
+DIRECTORS, AGENTS, LICENSEES (EXCLUDING YOU), SUBLICENSEES (EXCLUDING YOU),
+SUCCESSORS AND ASSIGNS FROM AND AGAINST ANY AND ALL DIRECT AND/OR INDIRECT
+LOSSES, LAWSUITS, DAMAGES, CAUSES OF ACTIONS AND CLAIMS RELATING TO AND/OR
+ARISING FROM THE USER LEVELS AND/OR THE DISTRIBUTION OR OTHER USE OF ANY USER
+LEVELS.
+
+Intellectual Property Ownership. Owner retains all right, title and interest
+to the SOFTWARE and/or DEMO PRODUCTS and any accompanying instructions or
+other documentation (collectively, the "ACCOMPANYING MATERIALS"), including,
+but not limited to, all copyrights, trademarks, trade secrets, trade names,
+proprietary rights, patents, titles, computer codes, audiovisual effects,
+themes, characters, character names, stories, dialog, settings, artwork,
+sounds effects, musical works, and moral rights. The SOFTWARE, DEMO PRODUCTS
+and ACCOMPANYING MATERIALS are protected by United States copyright law and
+applicable copyright laws and treaties throughout the World. All rights are
+reserved. The SOFTWARE and ACCOMPANYING MATERIALS may not be copied or
+reproduced in any manner or medium, in whole or in part, without prior written
+consent from Owner except as specifically provided under "Grant of Limited
+Non- Exclusive License" above. Any persons copying or reproducing all or any
+portion of the SOFTWARE or ACCOMPANYING MATERIALS, except as specifically
+provided under "Grant of Limited Non-Exclusive License" above, in any manner
+or medium, will be willfully violating the copyright laws and may be subject
+to civil or criminal penalties.
+
+SOFTWARE Backup or Archiving. After You install the SOFTWARE into the
+permanent memory of a computer, You may keep and use the original disk(s)
+and/or CD-ROM (the "Storage Media") only for backup or archival purposes. You
+are expressly prohibited from transmitting the SOFTWARE or ACCOMPANYING
+MATERIALS electronically or otherwise over the Internet or through any other
+media or to any other party.
+
+
+Restrictions. Other than as provided specifically in this Agreement, You are
+not permitted to copy or otherwise reproduce the SOFTWARE or ACCOMPANYING
+MATERIALS; modify or prepare derivative copies based on the SOFTWARE or
+ACCOMPANYING MATERIALS; distribute copies of the SOFTWARE or ACCOMPANYING
+MATERIALS by sale or other transfer of ownership; rent, lease, or lend the
+SOFTWARE, DEMO PRODUCTS or ACCOMPANYING MATERIALS; or to display the SOFTWARE
+or ACCOMPANYING MATERIALS publicly. You are expressly prohibited from selling,
+leasing, charging for access to, or otherwise using for profit or commercially
+exploiting any USER LEVELS, level packs, add-on packs, sequels, characters or
+other components or items created by utilization of the SOFTWARE's or DEMO
+PRODUCT's level editor and/or based upon or related to the SOFTWARE, DEMO
+PRODUCT or ACCOMPANYING MATERIALS. YOU ARE NOT PERMITTED TO REVERSE ENGINEER,
+DECOMPILE OR DISASSEMBLE THE SOFTWARE OR ANY DEMO PRODUCT IN ANY WAY. Any
+copying or distribution of the SOFTWARE or ACCOMPANYING MATERIALS not
+specifically allowed in this Agreement is a violation of this Agreement. You
+may create USER LEVELS for the SOFTWARE or any DEMO PRODUCT; provided,
+however, that such USER LEVELS are created in accordance with the
+non-exclusive license set forth above and no USER LEVELS may be sold or
+otherwise commercially exploited, whether by You or by any other person or
+entity, but You may exchange USER LEVELS at no charge with other end-users.
+
+Limited Warranty and Warranty Disclaimers.
+
+LIMITED WARRANTY. Owner warrants that the original Storage Media holding the
+SOFTWARE is free from defects in materials and workmanship under normal use
+and service for a period of ninety (90) days from the date that You downloaded
+the SOFTWARE. If for any reason You find defects in the Storage Media, or if
+You are unable to install the SOFTWARE on Your home or portable computer, You
+may return the SOFTWARE, ACCOMPANYING MATERIALS and all packaging related
+thereto to the place you purchased such products for a full refund or
+replacement thereof. This limited warranty does not apply if You have damaged
+the SOFTWARE by accident or abuse.
+
+CUSTOMER'S REMEDY. Your exclusive remedies, and the entire liability of Owner,
+shall be replacement of the SOFTWARE or DEMO PRODUCT, as the case may be. By
+downloading, installing and/or otherwise using the SOFTWARE, DEMO PRODUCT or
+ACCOMPANYING MATERIALS, as the case may be, You hereby agree to waive any and
+all other remedies You may have at law or in equity. Any such remedies You may
+not waive as a matter of public policy, You hereby assign, or shall assign as
+they become available, over to Owner.
+
+NOTWITHSTANDING ANYTHING TO THE CONTRARY IN THIS AGREEMENT, WITH RESPECT TO
+THE DEMO PRODUCTS, OWNER MAKES NO REPRESENTATIONS OR WARRANTIES (EXPRESS,
+IMPLIED OR OTHERWISE), INCLUDING WITHOUT LIMITATION THE IMPLIED WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND/OR NON-INFRINGEMENT. THE
+DEMO PRODUCTS ARE PROVIDED GRATUITOUSLY TO YOU "AS IS" AND YOU TAKE, INSTALL,
+LOAD OR OTHERWISE USE SUCH DEMO PRODUCTS AT YOUR OWN RISK. OWNER HAS NO
+LIABILITIES ARISING FROM OR RELATED TO YOUR USE OF ANY DEMO PRODUCTS.
+
+
+WARRANTY DISCLAIMERS. EXCEPT FOR THE EXPRESS LIMITED WARRANTY SET FORTH ABOVE,
+OWNER MAKES NO WARRANTIES, EXPRESS OR IMPLIED, ORAL OR WRITTEN, CONCERNING THE
+PRODUCTS REFERENCED HEREIN OR ANY COMPONENT PART THEREOF. ANY IMPLIED
+WARRANTIES THAT MAY BE IMPOSED BY APPLICABLE LAW ARE LIMITED IN ALL RESPECTS
+TO THE FULLEST EXTENT ALLOWED AND TO THE DURATION OF THE LIMITED WARRANTY.
+OWNER DOES NOT REPRESENT, WARRANT OR GUARANTEE THE QUALITY OR THE PERFORMANCE
+OF THE SOFTWARE, DEMO PRODUCTS OR ACCOMPANYING MATERIALS OTHER THAN AS SET
+FORTH IN THE ABOVE LIMITED WARRANTY. OWNER ALSO DOES NOT REPRESENT, WARRANT OR
+GUARANTEE THAT THE SOFTWARE, DEMO PRODUCTS OR ACCOMPANYING MATERIALS
+CAPABILITIES WILL MEET YOUR NEEDS OR THAT THE SOFTWARE OR DEMO PRODUCTS WILL
+CONTINUOUSLY OPERATE, BE ERROR FREE, OR THAT PROBLEMS WILL BE CORRECTED. OWNER
+DOES NOT REPRESENT THAT THE SOFTWARE OR DEMO PRODUCTS WILL OPERATE IN A
+MULTI-USER ENVIRONMENT.
+
+NO ORAL OR WRITTEN INFORMATION OR ADVICE GIVEN BY OWNER, ITS DEALERS,
+DISTRIBUTORS, DIRECTORS, OFFICERS, EMPLOYEES, AGENTS, CONTRACTORS OR
+AFFILIATES SHALL CREATE ANY OTHER WARRANTY OR EXTEND OR EXPAND THE SCOPE OF
+THIS WARRANTY. YOU MAY NOT RELY ON ANY SUCH INFORMATION OR ADVICE.
+
+SOME STATES DO NOT ALLOW LIMITATIONS ON HOW LONG AN IMPLIED WARRANTY LASTS, SO
+THE ABOVE LIMITATION MAY NOT APPLY TO YOU. THIS LIMITED WARRANTY GIVES YOU
+SPECIFIC LEGAL RIGHTS AND YOU MAY ALSO HAVE OTHER RIGHTS WHICH MAY VARY FROM
+STATE TO STATE.
+
+LIABILITY LIMITATION. To the maximum extent permitted by applicable law, and
+regardless of whether any remedy set forth herein fails of its essential
+purpose,
+
+IN NO EVENT WILL OWNER, ITS DIRECTORS, OFFICERS, EMPLOYEES, AGENTS, LICENSES
+(EXCLUDING YOU), SUBLICENSEES (EXCLUDING YOU) OR AFFILIATES NOR ANYONE ELSE
+INVOLVED IN THE DEVELOPMENT, MANUFACTURE OR DISTRIBUTION OF THE SOFTWARE, THE
+DEMO PRODUCTS, THE ACCOMPANYING MATERIALS OR THE USER LEVELS (OTHER THAN YOU)
+BE LIABLE FOR ANY DAMAGES WHATSOEVER, INCLUDING WITHOUT LIMITATION, DIRECT OR
+INDIRECT; INCIDENTAL; OR CONSEQUENTIAL DAMAGES FOR PERSONAL INJURY, PERSONAL
+PROPERTY, LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION, LOSS OF BUSINESS
+INFORMATION, LOSS OF TEXT OR DATA STORED IN OR USED WITH SUCH PRODUCT
+INCLUDING THE COST OF RECOVERING OR REPRODUCING THE TEXT OR DATA, OR ANY OTHER
+PECUNIARY LOSS, ARISING FROM OR OUT OF THE USE OR INABILITY TO USE THIS
+SOFTWARE, THE DEMO PRODUCTS OR ANY USER LEVELS. THIS LIABILITY LIMITATION
+APPLIES EVEN IF YOU OR ANYONE ELSE HAS ADVISED OWNER OR ANY OF ITS AUTHORIZED
+REPRESENTATIVES OF THE POSSIBILITY OF SUCH DAMAGES. EVEN IF SUCH IS CAUSED BY,
+ARISES OUT OF OR RESULTS FROM THE ORDINARY, STRICT, SOLE OR CONTRIBUTORY
+NEGLIGENCE OF OWNER OR ITS DIRECTORS, OFFICERS, EMPLOYEES, AGENTS, CONTRACTORS
+OR AFFILIATES. SOME STATES DO NOT ALLOW THE EXCLUSION OR LIMITATION OF
+INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THE ABOVE LIMITATION OR EXCLUSION MAY
+NOT APPLY TO YOU.
+
+Product Support and Updates. This SOFTWARE is intended to be user-friendly and
+limited product support is provided by Owner as specified in the ACCOMPANYING
+MATERIALS.
+
+Jurisdiction. TEXAS LAWS GOVERN THIS AGREEMENT, REGARDLESS OF SUCH STATE'S
+CHOICE OF LAW PRINCIPLES, WITH A FORUM AND VENUE OF DALLAS COUNTY, TEXAS. This
+Agreement may be modified only by a written instrument specifying the
+modification and executed by both parties. In the event that any provision of
+this Agreement shall be held to be unenforceable, such provision shall be
+enforced to the greatest possible extent, with the other provisions of this
+Agreement to remain in full force and effect.
+
+Entire Agreement. This Agreement represents the entire agreement between the
+parties, and supersedes any oral or written communications, proposals or prior
+agreements between the parties or any dealers, distributors, agents or
+employees.
+
+
+U.S. Government Restricted Rights. Each of the SOFTWARE, DEMO PRODUCTS and the
+ACCOMPANYING MATERIALS is provided with RESTRICTED RIGHTS (as found in 48
+C.F.R. '52.227-7013). This provision only applies if the U.S. Government or
+any of its entities obtains the SOFTWARE or DEMO PRODUCTS either directly or
+indirectly. Owner created the SOFTWARE, DEMO PRODUCTS and the ACCOMPANYING
+MATERIALS exclusively with private funds. Additionally, information contained
+in the SOFTWARE, DEMO PRODUCTS and the ACCOMPANYING MATERIALS is a trade
+secret of Owner for all purposes of the Freedom of Information Act or
+otherwise. Furthermore, the SOFTWARE and the DEMO PRODUCTS are "commercial
+computer software" subject to limited use as set forth in any contract that
+may be entered into between the seller and the governmental entity. Owner
+owns, in all respects, the proprietary information and proprietary data found
+in the SOFTWARE, DEMO PRODUCTS and the ACCOMPANYING MATERIALS.
+
+U.S. DEPARTMENT OF DEFENSE PERSONNEL. Owner only sells this SOFTWARE, DEMO
+PRODUCTS and the ACCOMPANYING MATERIALS with "Restricted Rights" as defined in
+DFARS 52.227-7013 (also found at 48 C.F.R. '252.227-7013). Any U.S. Government
+use, duplication, or disclosure is subject to the restrictions including, but
+not limited to those found in the Rights in Technological Data clause at DFARS
+52.227-7013 (48 C.F.R. '252.227-7013) that may be amended from time to time.
+
+NON-DEPARTMENT OF DEFENSE PERSONNEL. Other governmental personnel are on
+notice through this Agreement that any use of the SOFTWARE, DEMO PRODUCTS
+and/or the ACCOMPANYING MATERIALS is subject to similar limitations as those
+stated above, including but not limited to, those stated in Commercial
+Computer Software -- Restricted Rights found in 48 C.F.R. '52.227-19, that may
+also be amended from time to time. Manufacturer is Owner at the location
+listed below.
+
+U.S. Export Laws Prohibitions. By downloading, installing or otherwise using
+the SOFTWARE, DEMO PRODUCTS and/or ACCOMPANYING MATERIALS, You also agree and
+confirm that the SOFTWARE, DEMO PRODUCTS and/or ACCOMPANYING MATERIALS and any
+of the SOFTWARE's or DEMO PRODUCTS' direct products are not being and will not
+be transported, exported or re-exported (directly or indirectly through the
+Internet or otherwise) into (or to a national or resident of) any country
+forbidden to receive such SOFTWARE, DEMO PRODUCTS and/or ACCOMPANYING
+MATERIALS by any U.S. export laws or accompanying regulations or otherwise
+violate such laws or regulations, that may be amended from time to time. You
+also agree and confirm that the SOFTWARE, DEMO PRODUCTS and ACCOMPANYING
+MATERIALS will not be used for any purpose that may be restricted by the same
+laws and regulations.
+
+Termination. This Agreement is valid until terminated. This Agreement ceases
+automatically (without any form of notice) if You do not comply with any
+Agreement provision. You can also end this Agreement by destroying the
+SOFTWARE and ACCOMPANYING MATERIALS or DEMO PRODUCTS, as the case may be, and
+all copies and reproductions of the SOFTWARE and ACCOMPANYING MATERIALS or
+DEMO PRODUCTS, as the case may be, and deleting and permanently purging the
+SOFTWARE or DEMO PRODUCTS, as the case may be, from any client server or
+computer on which it has been installed.
+
+Program Transfer. You may permanently transfer all of Your rights under this
+Agreement, provided that the recipient agrees to all of the terms of this
+Agreement, and You agree to transfer all ACCOMPANYING MATERIALS and related
+documents and components and, if applicable, remove the SOFTWARE from Your
+computer prior thereto. With respect to the SOFTWARE and the ACCOMPANYING
+MATERIALS, transferring the SOFTWARE automatically terminates Your license
+under this Agreement.
+
+
+Equitable Remedies. You hereby agree that if the terms of this Agreement are
+not specifically enforced, Owner will be irreparably damaged, and therefore
+You agree that Owner shall be entitled, without bond, other security, proof of
+damages, to appropriate equitable remedies with respect to any breach(es) of
+this Agreement, in addition to any other available remedies.
+
+Owner. If You have any questions regarding this Agreement, the enclosed
+materials, or otherwise, please contact in writing:
+
+
+Ritual Entertainment Attn: Customer Service 2019 North Lamar Street, Suite 220
+Dallas, Texas 75202-1744
+
+Fax: (214) 871-7390
+
+E-mail: legal@ritual.com
+
+
+
+
+Sin, Ritual and Ritual Entertainment are trademarks of Ritual Entertainment,
+Inc. Copyright c 1998 Ritual Entertainment, Inc. All Rights Reserved.
+
+Microsoft and Windows 95, Windows 98 and Windows NT are registered trademarks
+of Microsoft Corporation. All other trademarks and trade names are properties
+of their respective owners.
+
+U.S. Government Restricted Rights Manufactured in the U.S.A.
+
+
+Software License Agreement      7 08656 00001 CORP 209544.3
