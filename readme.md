@@ -1,6 +1,8 @@
 SiN Gold Game Source
 ====================
 
+Copyright © 2020 Night Dive Studios, Inc.
+
 Game data is not included. Game data must be acquired by purchasing SiN Gold:
 * [GOG](https://www.gog.com/game/sin_gold)
 * [Steam](https://store.steampowered.com/app/1313/SiN_Gold/)
